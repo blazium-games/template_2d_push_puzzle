@@ -1,0 +1,128 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/presenter.gd" id="1_opener"]
+
+[node name="Opener" type="Node2D"]
+script = ExtResource("1_opener")
+[node name="SheetLens" type="Camera2D" parent="."]
+position = Vector2(100, 100)
+[node name="Cell_0_0" type="ColorRect" parent="."]
+offset_left = 0
+offset_top = 0
+offset_right = 48
+offset_bottom = 48
+color = Color(0.2, 0.22, 0.25, 1)
+[node name="Cell_0_1" type="ColorRect" parent="."]
+offset_left = 0
+offset_top = 52
+offset_right = 48
+offset_bottom = 100
+color = Color(0.2, 0.22, 0.25, 1)
+[node name="Cell_0_2" type="ColorRect" parent="."]
+offset_left = 0
+offset_top = 104
+offset_right = 48
+offset_bottom = 152
+color = Color(0.2, 0.22, 0.25, 1)
+[node name="Cell_0_3" type="ColorRect" parent="."]
+offset_left = 0
+offset_top = 156
+offset_right = 48
+offset_bottom = 204
+color = Color(0.2, 0.22, 0.25, 1)
+[node name="Cell_1_0" type="ColorRect" parent="."]
+offset_left = 52
+offset_top = 0
+offset_right = 100
+offset_bottom = 48
+color = Color(0.2, 0.22, 0.25, 1)
+[node name="Cell_1_1" type="ColorRect" parent="."]
+offset_left = 52
+offset_top = 52
+offset_right = 100
+offset_bottom = 100
+color = Color(0.2, 0.22, 0.25, 1)
+[node name="Cell_1_2" type="ColorRect" parent="."]
+offset_left = 52
+offset_top = 104
+offset_right = 100
+offset_bottom = 152
+color = Color(0.2, 0.22, 0.25, 1)
+[node name="Cell_1_3" type="ColorRect" parent="."]
+offset_left = 52
+offset_top = 156
+offset_right = 100
+offset_bottom = 204
+color = Color(0.2, 0.22, 0.25, 1)
+[node name="Cell_2_0" type="ColorRect" parent="."]
+offset_left = 104
+offset_top = 0
+offset_right = 152
+offset_bottom = 48
+color = Color(0.2, 0.22, 0.25, 1)
+[node name="Cell_2_1" type="ColorRect" parent="."]
+offset_left = 104
+offset_top = 52
+offset_right = 152
+offset_bottom = 100
+color = Color(0.2, 0.22, 0.25, 1)
+[node name="Cell_2_2" type="ColorRect" parent="."]
+offset_left = 104
+offset_top = 104
+offset_right = 152
+offset_bottom = 152
+color = Color(0.2, 0.22, 0.25, 1)
+[node name="Cell_2_3" type="ColorRect" parent="."]
+offset_left = 104
+offset_top = 156
+offset_right = 152
+offset_bottom = 204
+color = Color(0.2, 0.22, 0.25, 1)
+[node name="Cell_3_0" type="ColorRect" parent="."]
+offset_left = 156
+offset_top = 0
+offset_right = 204
+offset_bottom = 48
+color = Color(0.2, 0.22, 0.25, 1)
+[node name="Cell_3_1" type="ColorRect" parent="."]
+offset_left = 156
+offset_top = 52
+offset_right = 204
+offset_bottom = 100
+color = Color(0.2, 0.22, 0.25, 1)
+[node name="Cell_3_2" type="ColorRect" parent="."]
+offset_left = 156
+offset_top = 104
+offset_right = 204
+offset_bottom = 152
+color = Color(0.2, 0.22, 0.25, 1)
+[node name="Cell_3_3" type="ColorRect" parent="."]
+offset_left = 156
+offset_top = 156
+offset_right = 204
+offset_bottom = 204
+color = Color(0.2, 0.22, 0.25, 1)
+[node name="PlateMark" type="ColorRect" parent="."]
+offset_left = 156
+offset_top = 52
+offset_right = 204
+offset_bottom = 100
+color = Color(0.2, 0.45, 0.7, 1)
+[node name="CrateMark" type="ColorRect" parent="."]
+offset_left = 56
+offset_top = 56
+offset_right = 96
+offset_bottom = 96
+color = Color(0.75, 0.55, 0.2, 1)
+[node name="BlockerA" type="ColorRect" parent="."]
+offset_left = 0
+offset_top = 52
+offset_right = 48
+offset_bottom = 100
+color = Color(0.45, 0.2, 0.2, 1)
+[node name="BlockerB" type="ColorRect" parent="."]
+offset_left = 104
+offset_top = 104
+offset_right = 152
+offset_bottom = 152
+color = Color(0.45, 0.2, 0.2, 1)
